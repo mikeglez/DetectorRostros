@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+
 import cv2 as cv
 import sys
 
-img = cv.imread(cv.samples.findFile("starry_night.jpg"))
+img = cv.imread("prueba.jpg")
 
 if img is None:
     sys.exit("Could not read the image.")
